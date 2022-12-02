@@ -1,0 +1,131 @@
+:root {
+  --colo-1: #0000001a;
+  --colo-2: #000000;
+  --colo-3: #767981;
+  --colo-4: #c5cbda;
+  --colo-5: #f2f3f7;
+  --colo-6: #ffffff;
+  --colo-7: #e63020;
+  --colo-8: #fdeae8;
+  --colo-9: #5785ed;
+  --colo-10: #eef3fd;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  height: 70px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px -3px 6px var(--colo-1);
+  z-index: 21;
+  font-family: "Roboto", sans-serif;
+}
+#Buscador {
+  height: 40px;
+  width: 384px;
+  background: url("../assets/lupa.png") no-repeat 0px 5px;
+  background-size: 16px;
+  background-position: 95% 50%;
+  border: 1px solid var(--colo-4);
+  border-radius: 20px;
+  opacity: 1;
+  padding: 13px;
+}
+.resultados {
+  display: flex;
+  height: 40px;
+  width: 182px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #c5cbda;
+  border-radius: 20px;
+}
+.resultados label {
+  display: flex;
+  width: 90px;
+  height: 30px;
+  background: var(--colo-8);
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+  color: var(--colo-7);
+  font-size: small;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 5px;
+}
+.resultados select {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ffffff !important;
+  border-radius: 19px;
+  margin-right: 5px;
+  appearance: none;
+  background: url("../assets/flechaAbajo.png") no-repeat;
+  background-size: 16px;
+  background-position: 95% 50%;
+}
+.resultados select:focus {
+  outline: none;
+}
+
+.cambio-pagina {
+  display: flex;
+  width: 294px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.cambio-pagina input {
+  width: 70px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #c5cbda;
+  border-radius: 20px;
+  text-align: center;
+}
+.cambio-pagina label {
+  font-size: small;
+}
+.cambio-pagina button {
+  width: 50px;
+  height: 40px;
+  background: transparent;
+  border: none;
+}
+.cambio-pagina img {
+  width: 12px;
+}
+.acciones-select {
+  width: 263px;
+  height: 40px;
+  background: var(--colo-7) url(../assets/flechaAbajo2.png) no-repeat 90% center;
+  color: var(--colo-6);
+  border: none !important;
+  border-radius: 19px;
+  margin-right: 5px;
+  text-align: center;
+  appearance: none;
+}
+.acciones-select:hover{
+    border: 2px solid var(--colo-7) !important;
+    background: var(--colo-6) url(../assets/flechaAbajo3.png) no-repeat 90% center;
+    color: var(--colo-7);
+    cursor: pointer;
+}
+.acciones-select:focus {
+    outline: none;
+    border: 2px solid var(--colo-7) !important;
+    background: var(--colo-6) url(../assets/flechaAbajo3.png) no-repeat 90% center;
+    color: var(--colo-7);
+}
+.acciones-select option{
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+.acciones-select option:hover{
+  background-color: var(--colo-4);
+}
+

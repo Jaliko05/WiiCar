@@ -1,0 +1,35 @@
+:root {
+  --colo-1: #0000001a;
+  --colo-2: #000000;
+  --colo-3: #767981;
+  --colo-4: #c5cbda;
+  --colo-5: #f2f3f7;
+  --colo-6: #ffffff;
+  --colo-7: #e63020;
+  --colo-8: #fdeae8;
+  --colo-9: #5785ed;
+  --colo-10: #eef3fd;
+}
+
+.contenedor-sinDatos {
+  position: relative;
+  background-color: var(--colo-6);
+  padding: 20px;
+  height: 50px;
+  border: 1px solid #c5cbda;
+  border-radius: 6px;
+  opacity: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+.comtenedo-sinDatos_mensaje {
+  display: flex;
+  background-color: var(--colo-5);
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c5cbda;
+  border-radius: 6px;
+  color: var(--colo-4);
+}

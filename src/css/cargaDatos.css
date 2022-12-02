@@ -1,0 +1,128 @@
+:root {
+  --colo-1: #0000001a;
+  --colo-2: #000000;
+  --colo-3: #767981;
+  --colo-4: #c5cbda;
+  --colo-5: #f2f3f7;
+  --colo-6: #ffffff;
+  --colo-7: #e63020;
+  --colo-8: #fdeae8;
+  --colo-9: #5785ed;
+  --colo-10: #eef3fd;
+}
+
+.contenedor-tabla {
+  position: relative;
+  background-color: var(--colo-6);
+  padding: 20px;
+  border: 1px solid #c5cbda;
+  border-radius: 6px;
+  opacity: 1;
+  font-family: "Roboto", sans-serif;
+  z-index: 1;
+}
+table {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+thead {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor-tabla_encabezado {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--colo-5);
+  border: 1px solid #c5cbda;
+  border-radius: 6px;
+  opacity: 1;
+  font-size: 14px;
+}
+.contenedor-tabla_encabezado img {
+  margin-left: 4px;
+  width: 12px;
+}
+.contenedor-tabla_cuerpo {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--colo-5);
+  border: none;
+  border-radius: 6px;
+  opacity: 1;
+  font-size: 14px;
+}
+.contenedor-tabla_cuerpo2 {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--colo-6);
+  border: none;
+  border-radius: 6px;
+  opacity: 1;
+  font-size: 14px;
+}
+td,
+th {
+  display: flex;
+  width: 60px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tdSmall {
+  width: 10px;
+}
+.tdBig {
+  width: 118px;
+}
+.tdBig-provi {
+  display: flex;
+  width: 101px;
+  height: 32px;
+  justify-content: space-around;
+  background: #25d366 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  color: #FFFFFF;
+}
+#acciones-tabla {
+  width: 118px;
+  height: 40px;
+  background: var(--colo-7) url(../assets/flechaAbajo2.png) no-repeat 90% center;
+  color: var(--colo-6);
+  border: none !important;
+  border-radius: 19px;
+  margin-right: 5px;
+  text-align: start;
+  padding-left: 15px;
+  appearance: none;
+  font-size: small;
+}
+#acciones-tabla:hover {
+  border: 2px solid var(--colo-7) !important;
+  background: var(--colo-6) url(../assets/flechaAbajo3.png) no-repeat 90% center;
+  color: var(--colo-7);
+  cursor: pointer;
+}
+#acciones-tabla:focus {
+  outline: none;
+  border: 2px solid var(--colo-7) !important;
+}
+#acciones-tabla option {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+#acciones-tabla::-ms-expand {
+  background-color: var(--colo-4);
+}
